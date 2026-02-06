@@ -45,7 +45,6 @@ namespace APIApp.Controllers
             if (result) return Ok("Booking updated");
             return BadRequest("Update failed");
         }
-
         [HttpDelete("Delete/{id}")]
         public ActionResult Delete(int id)
         {
